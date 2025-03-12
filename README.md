@@ -1,5 +1,11 @@
-# Vue 3 + TypeScript + Vite
+# Mincraft Mod 日本語訳ツール
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+これは、Minecraft Java EditionのModの言語ファイルを日本語に翻訳するツールです。  
+現状では、**英語 → 日本語**のみ対応しています。    
+## 翻訳APIについて
+翻訳にはDeepL APIを用いており、利用者の方には自分でDeepLのアカウントを作成して頂き、APIキーの取得をお願いします。  
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+現状では、私用のために作成したということもあり、Freeプランでのみ使用可能となっています。  
+Freeプランでは月間50万文字まで翻訳可能となっておりますが、大規模Modの一括翻訳を行った場合、10万文字以上の使用に及ぶ可能性がございますのでご注意ください。   
+
+ご要望等あれば改善していきたいと思います。
